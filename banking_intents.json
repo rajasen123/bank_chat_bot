@@ -1,0 +1,1193 @@
+
+    {
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "Good afternoon",
+        "I want help",
+        "I need assistance",
+        "Hello support",
+        "Is this bank support?",
+        "I have a question",
+        "Anyone here?",
+        "Can you assist me?"
+      ],
+      "responses": [
+        "Hello! How can I assist you with banking today?",
+        "Welcome to ABC Bank! How may I assist you today?",
+        "Hello! How can I help with your banking needs?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "talk later",
+        "see you later",
+        "have a good day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later. Thanks for visiting!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thanks a lot",
+        "thank's a lot!",
+        "That's helpful"
+      ],
+      "responses": [
+        "You're welcome. Happy to help!",
+        "My pleasure!",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "no_answer",
+      "patterns": [
+        "???",
+        "what",
+        "I don't understand",
+        "what are you saying?"
+      ],
+      "responses": [
+        "I’m not sure I understood. Could you rephrase?",
+        "I'm sorry, I don't understand that. Can you rephrase?"
+      ]
+    },
+    {
+      "tag": "account_open",
+      "patterns": [
+        "how to open account",
+        "open new account",
+        "start account",
+        "I want to open a bank account",
+        "new account opening process"
+      ],
+      "responses": [
+        "You can open an account online through our website/app or visit your nearest branch with your KYC documents."
+      ]
+    },
+    {
+      "tag": "account_types",
+      "patterns": [
+        "types of accounts",
+        "what accounts do you have",
+        "saving or current account",
+        "show me account options",
+        "what kinds of bank accounts are there?"
+      ],
+      "responses": [
+        "We offer savings, current, salary, NRI, and business accounts. Which one are you interested in?"
+      ]
+    },
+    {
+      "tag": "account_status",
+      "patterns": [
+        "check account status",
+        "is my account active",
+        "account verification",
+        "my account status",
+        "is my account dormant?"
+      ],
+      "responses": [
+        "You can check your account status in the mobile app or online banking portal. You can also visit a branch."
+      ]
+    },
+    {
+      "tag": "account_close",
+      "patterns": [
+        "close account",
+        "delete account",
+        "terminate bank account",
+        "I want to close my account",
+        "how do I close my bank account?"
+      ],
+      "responses": [
+        "To close your account, please visit the nearest branch with your ID proof and cheque book."
+      ]
+    },
+    {
+      "tag": "account_update",
+      "patterns": [
+        "update account info",
+        "change personal details",
+        "edit profile",
+        "my address is wrong",
+        "change my name in bank"
+      ],
+      "responses": [
+        "You can use mobile banking to update some details or visit a branch for major changes like name or address."
+      ]
+    },
+    {
+      "tag": "balance_check",
+      "patterns": [
+        "check balance",
+        "account balance",
+        "how much money I have",
+        "what's my balance",
+        "show my balance"
+      ],
+      "responses": [
+        "You can check your balance via our mobile app, net banking, ATM, or by dialing *99#."
+      ]
+    },
+    {
+      "tag": "transaction_history",
+      "patterns": [
+        "check transactions",
+        "transaction history",
+        "recent transactions",
+        "show my last 5 transactions",
+        "mini statement"
+      ],
+      "responses": [
+        "Your recent transaction history is available in your banking app and net banking portal."
+      ]
+    },
+    {
+      "tag": "fund_transfer",
+      "patterns": [
+        "transfer money",
+        "send money",
+        "upi transfer",
+        "how to send money",
+        "I need to make a payment"
+      ],
+      "responses": [
+        "To transfer funds, you can use UPI, IMPS, NEFT/RTGS via net banking, or visit a branch."
+      ]
+    },
+    {
+      "tag": "imps",
+      "patterns": [
+        "what is imps",
+        "imps transfer",
+        "instant transfer",
+        "imps charges"
+      ],
+      "responses": [
+        "IMPS (Immediate Payment Service) enables instant 24x7 fund transfers."
+      ]
+    },
+    {
+      "tag": "neft",
+      "patterns": [
+        "what is neft",
+        "neft transfer",
+        "neft timings"
+      ],
+      "responses": [
+        "NEFT (National Electronic Funds Transfer) transfers are processed in hourly batches."
+      ]
+    },
+    {
+      "tag": "rtgs",
+      "patterns": [
+        "rtgs transfer",
+        "large transfer",
+        "rtgs minimum amount"
+      ],
+      "responses": [
+        "RTGS (Real-Time Gross Settlement) is used for high-value (usually above 2 Lakh) real-time transfers."
+      ]
+    },
+    {
+      "tag": "upi",
+      "patterns": [
+        "upi help",
+        "google pay issue",
+        "phonepe problem",
+        "upi transaction failed",
+        "what is upi?"
+      ],
+      "responses": [
+        "UPI allows instant transfers via mobile apps like GPay, PhonePe, Paytm. Please check your app for issues."
+      ]
+    },
+    {
+      "tag": "international_transfer",
+      "patterns": [
+        "send money abroad",
+        "international transfer",
+        "swift code",
+        "how to send money to usa"
+      ],
+      "responses": [
+        "International transfers (remittances) can be done via SWIFT. Please visit your branch for details and FEMA guidelines."
+      ]
+    },
+    {
+      "tag": "card_issue",
+      "patterns": [
+        "my card not working",
+        "card issue",
+        "atm card not working",
+        "debit card declined",
+        "my card is not working online"
+      ],
+      "responses": [
+        "Please check if your card is active and online/contactless usage is enabled in the app. Or contact support."
+      ]
+    },
+    {
+      "tag": "debit_card_apply",
+      "patterns": [
+        "apply debit card",
+        "get atm card",
+        "i want a new debit card",
+        "order atm card"
+      ],
+      "responses": [
+        "You can request a new debit card from your mobile app, net banking, or at any branch."
+      ]
+    },
+    {
+      "tag": "credit_card_apply",
+      "patterns": [
+        "apply credit card",
+        "how to get credit card",
+        "i want a credit card",
+        "credit card offers"
+      ],
+      "responses": [
+        "You can apply for a credit card online or speak to our banking representative about your eligibility."
+      ]
+    },
+    {
+      "tag": "credit_limit",
+      "patterns": [
+        "increase credit limit",
+        "credit limit check",
+        "what is my credit card limit",
+        "how to change credit limit"
+      ],
+      "responses": [
+        "Credit limit increase depends on your eligibility and usage history. You can apply in the card settings section of your app."
+      ]
+    },
+    {
+      "tag": "card_block",
+      "patterns": [
+        "lost my card",
+        "block card",
+        "card stolen",
+        "block my debit card",
+        "I can't find my atm card"
+      ],
+      "responses": [
+        "I have temporarily blocked your card. Please contact support immediately or use the app to permanently block it and request a replacement."
+      ]
+    },
+    {
+      "tag": "card_pin_reset",
+      "patterns": [
+        "reset card pin",
+        "forgot atm pin",
+        "change pin",
+        "I forgot my credit card pin",
+        "generate green pin"
+      ],
+      "responses": [
+        "You can reset your PIN instantly via our mobile app (using 'Green PIN' generation) or at any of our ATMs."
+      ]
+    },
+    {
+      "tag": "loan_info",
+      "patterns": [
+        "loan options",
+        "types of loans",
+        "I need a loan",
+        "Tell me about your loans",
+        "Can I get a loan?"
+      ],
+      "responses": [
+        "We offer home, personal, business, vehicle, and educational loans. Which one are you interested in?"
+      ]
+    },
+    {
+      "tag": "loan_apply",
+      "patterns": [
+        "apply loan",
+        "i want loan",
+        "how to get a loan",
+        "loan application process"
+      ],
+      "responses": [
+        "You can apply for most loans directly through our mobile app or website. You can also visit a branch.Share some of your information so we can contact you directly"
+      ]
+    },
+    {
+      "tag": "loan_interest",
+      "patterns": [
+        "loan interest rate",
+        "rates for loan",
+        "what is the interest on home loan",
+        "personal loan interest"
+      ],
+      "responses": [
+        "Interest rates vary by loan type, amount, and your credit score. Please check our website for the latest rates."
+      ]
+    },
+    {
+      "tag": "loan_status",
+      "patterns": [
+        "check loan status",
+        "loan approval status",
+        "where is my loan application",
+        "did my loan get approved?"
+      ],
+      "responses": [
+        "You can track your loan application status in the 'Loans' section of our mobile app or contact support."
+      ]
+    },
+    {
+      "tag": "loan_repayment",
+      "patterns": [
+        "loan repayment options",
+        "emi payment",
+        "how to pay my emi",
+        "pay loan bill"
+      ],
+      "responses": [
+        "You can pay EMIs via auto-debit (e-NACH), UPI, net banking, or by depositing at a branch."
+      ]
+    },
+    {
+      "tag": "home_loan",
+      "patterns": [
+        "home loan",
+        "housing loan",
+        "i want to buy a house",
+        "mortgage loan"
+      ],
+      "responses": [
+        "Home loans are available with competitive rates for purchase, construction, or renovation. Would you like to know more?"
+      ]
+    },
+    {
+      "tag": "car_loan",
+      "patterns": [
+        "car loan",
+        "vehicle loan",
+        "auto loan",
+        "i want to buy a car"
+      ],
+      "responses": [
+        "Car loans are available for new and used vehicles, covering up to 90% of the vehicle's value."
+      ]
+    },
+    {
+      "tag": "personal_loan",
+      "patterns": [
+        "personal loan",
+        "cash loan",
+        "i need money urgently",
+        "unsecured loan"
+      ],
+      "responses": [
+        "Personal loans are available with minimal documentation for various needs like weddings, travel, or medical emergencies."
+      ]
+    },
+    {
+      "tag": "business_loan",
+      "patterns": [
+        "business loan",
+        "loan for my startup",
+        "msme loan",
+        "working capital loan"
+      ],
+      "responses": [
+        "Business loans are available for MSMEs, startups, and established companies. Please contact our business banking team."
+      ]
+    },
+    {
+      "tag": "kyc",
+      "patterns": [
+        "update kyc",
+        "kyc verification",
+        "what is kyc",
+        "my kyc is pending"
+      ],
+      "responses": [
+        "You can complete your KYC (Know Your Customer) via video KYC on our app or by visiting a branch with your ID and address proof."
+      ]
+    },
+    {
+      "tag": "pan_update",
+      "patterns": [
+        "update pan",
+        "pan number change",
+        "link pan to account",
+        "my pan is wrong"
+      ],
+      "responses": [
+        "Please submit your PAN copy at a branch or upload it through the net banking portal to update/link it."
+      ]
+    },
+    {
+      "tag": "aadhar_update",
+      "patterns": [
+        "update aadhaar",
+        "link aadhaar",
+        "change aadhaar number",
+        "link aadhaar to bank"
+      ],
+      "responses": [
+        "Aadhaar linking and updates can be done in the app using OTP, or by visiting a branch."
+      ]
+    },
+    {
+      "tag": "interest_rates",
+      "patterns": [
+        "current interest rate",
+        "savings interest",
+        "fd rates",
+        "interest on savings account"
+      ],
+      "responses": [
+        "Please check the 'Interest Rates' section on our website or app for the latest rates on all deposits."
+      ]
+    },
+    {
+      "tag": "fixed_deposit",
+      "patterns": [
+        "open fd",
+        "start fixed deposit",
+        "what is fixed deposit",
+        "tax saving fd"
+      ],
+      "responses": [
+        "You can open a Fixed Deposit instantly via our mobile banking app or at any branch. We also offer tax-saving FDs."
+      ]
+    },
+    {
+      "tag": "recurring_deposit",
+      "patterns": [
+        "start rd",
+        "recurring deposit",
+        "what is rd",
+        "monthly deposit scheme"
+      ],
+      "responses": [
+        "Recurring deposits (RDs) are available from 6 months to 10 years. You can start one from the app."
+      ]
+    },
+    {
+      "tag": "fd_maturity",
+      "patterns": [
+        "fd maturity",
+        "fd withdrawal",
+        "my fd is mature",
+        "how to break fd"
+      ],
+      "responses": [
+        "You can withdraw your FD after maturity via online banking or by visiting a branch. Premature withdrawal is also possible with a penalty."
+      ]
+    },
+    {
+      "tag": "atm_locations",
+      "patterns": [
+        "nearest atm",
+        "atm near me",
+        "where is your atm",
+        "find atm"
+      ],
+      "responses": [
+        "Please use our mobile app's 'ATM Locator' feature to find the nearest ATM."
+      ]
+    },
+    {
+      "tag": "branch_locations",
+      "patterns": [
+        "nearest branch",
+        "bank branch near me",
+        "where is your bank",
+        "find a branch"
+      ],
+      "responses": [
+        "You can find the nearest branch, along with its timings and IFSC code, using the 'Branch Locator' tool on our website or app."
+      ]
+    },
+    {
+      "tag": "online_banking",
+      "patterns": [
+        "online banking",
+        "net banking help",
+        "register for net banking",
+        "how to use online banking"
+      ],
+      "responses": [
+        "You can register for net banking on our website using your debit card details, or request assistance at a branch."
+      ]
+    },
+    {
+      "tag": "mobile_banking",
+      "patterns": [
+        "mobile banking app",
+        "app support",
+        "download bank app",
+        "app not working"
+      ],
+      "responses": [
+        "You can download our official app from the App Store or Play Store. For support, try reinstalling or call customer care."
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "forgot password",
+        "reset online banking password",
+        "i forgot my login password",
+        "change net banking password"
+      ],
+      "responses": [
+        "You can reset your password from the login page using the 'Forgot Password' link."
+      ]
+    },
+    {
+      "tag": "login_issue",
+      "patterns": [
+        "can't login",
+        "login failed",
+        "unable to login to app",
+        "net banking not opening"
+      ],
+      "responses": [
+        "Please ensure you are using the correct credentials. If the problem persists, try resetting your password."
+      ]
+    },
+    {
+      "tag": "fraud_alert",
+      "patterns": [
+        "fraud call",
+        "scam",
+        "someone hacked",
+        "i got a fake message",
+        "phishing email"
+      ],
+      "responses": [
+        "WARNING: Do not share your CVV, PIN, or OTP with anyone. The bank never asks for this. Please report fraud immediately."
+      ]
+    },
+    {
+      "tag": "report_fraud",
+      "patterns": [
+        "report fraud",
+        "lost money",
+        "unauthorized transaction",
+        "my account is hacked"
+      ],
+      "responses": [
+        "Please contact our 24x7 helpline or visit your branch immediately to report the fraud."
+      ]
+    },
+    {
+      "tag": "cheque_book",
+      "patterns": [
+        "order cheque book",
+        "cheque request",
+        "i need a new cheque book",
+        "apply for chequebook"
+      ],
+      "responses": [
+        "You can order a new cheque book via our mobile app, net banking, or by submitting a request at your branch."
+      ]
+    },
+    {
+      "tag": "cheque_status",
+      "patterns": [
+        "cheque status",
+        "cheque cleared?",
+        "check my cheque status",
+        "did my check bounce?"
+      ],
+      "responses": [
+        "You can track the status of your issued or deposited cheques in the banking app."
+      ]
+    },
+    {
+      "tag": "cheque_stop",
+      "patterns": [
+        "stop cheque",
+        "cancel cheque",
+        "stop cheque payment",
+        "i want to stop a cheque"
+      ],
+      "responses": [
+        "You can place a 'stop payment' request for a cheque via the mobile app or net banking. Charges may apply."
+      ]
+    },
+    {
+      "tag": "tax_certificate",
+      "patterns": [
+        "tax certificate",
+        "form 16a",
+        "interest certificate",
+        "tds certificate",
+        "download form 16a"
+      ],
+      "responses": [
+        "You can download your interest certificate and Form 16A (TDS certificate) from the 'Services' section of online banking."
+      ]
+    },
+    {
+      "tag": "account_statement",
+      "patterns": [
+        "download statement",
+        "bank statement",
+        "i need a 6 month statement",
+        "e-statement"
+      ],
+      "responses": [
+        "You can download or email your account statements for any period from the mobile app or net banking portal."
+      ]
+    },
+    {
+      "tag": "minimum_balance",
+      "patterns": [
+        "minimum balance",
+        "balance requirement",
+        "average monthly balance",
+        "amb charges"
+      ],
+      "responses": [
+        "The minimum balance requirement (AMB) varies by account type. Please check your account details online."
+      ]
+    },
+    {
+      "tag": "foreign_exchange",
+      "patterns": [
+        "forex rate",
+        "currency exchange",
+        "i need us dollars",
+        "buy forex card"
+      ],
+      "responses": [
+        "You can check current forex rates in our app or website. We also offer multi-currency forex cards for travel."
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "insurance services",
+        "bank insurance",
+        "health insurance",
+        "life insurance"
+      ],
+      "responses": [
+        "We provide a range of life, health, and general (car, travel) insurance products. Would you like to connect with an expert?"
+      ]
+    },
+    {
+      "tag": "locker",
+      "patterns": [
+        "locker facility",
+        "bank locker",
+        "safe deposit locker",
+        "how to get a locker"
+      ],
+      "responses": [
+        "Locker facilities are available at select branches. Please contact your branch to check for availability."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "file complaint",
+        "raise issue",
+        "i have a complaint",
+        "grievance redressal"
+      ],
+      "responses": [
+        "We are sorry for the inconvenience. You can submit your complaint online via our grievance portal or visit a branch."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "give feedback",
+        "review bank",
+        "i want to give feedback",
+        "suggestion"
+      ],
+      "responses": [
+        "We value your feedback! Please share your feedback in the app or on the website's feedback form."
+      ]
+    },
+    {
+      "tag": "support_contact",
+      "patterns": [
+        "customer care",
+        "bank phone number",
+        "helpline number",
+        "contact bank support"
+      ],
+      "responses": [
+        "You can call our 24x7 helpline at 1800-XXX-XXXX or visit our website's 'Contact Us' page for a detailed contact matrix."
+      ]
+    },
+    {
+      "tag": "currency_rates",
+      "patterns": [
+        "exchange rate",
+        "dollar rate",
+        "usd to inr",
+        "today's currency rate"
+      ],
+      "responses": [
+        "Live currency exchange rates are available in the 'Forex' section of our app and website."
+      ]
+    },
+    {
+      "tag": "atm_withdrawal_limit",
+      "patterns": [
+        "withdrawal limit",
+        "atm limit",
+        "how much can i withdraw from atm",
+        "daily withdrawal limit"
+      ],
+      "responses": [
+        "The daily ATM cash withdrawal limit depends on your debit card type. You can check your limit in the 'Cards' section of the app."
+      ]
+    },
+    {
+      "tag": "account_freeze",
+      "patterns": [
+        "freeze account",
+        "block account",
+        "my account is frozen",
+        "unfreeze my account"
+      ],
+      "responses": [
+        "To freeze or unfreeze your account, please visit your home branch or call our customer helpline immediately."
+      ]
+    },
+    {
+      "tag": "overdraft",
+      "patterns": [
+        "overdraft facility",
+        "od account",
+        "what is overdraft",
+        "i need an od"
+      ],
+      "responses": [
+        "An Overdraft (OD) facility is available for eligible current and salary accounts. Please apply at your branch."
+      ]
+    },
+    {
+      "tag": "bill_payment",
+      "patterns": [
+        "pay bills",
+        "electricity bill payment",
+        "recharge my phone",
+        "utility bill payment"
+      ],
+      "responses": [
+        "You can pay all your bills (electricity, water, gas, mobile) through the 'Bill Pay' section of our mobile banking portal."
+      ]
+    },
+    {
+      "tag": "cash_deposit",
+      "patterns": [
+        "cash deposit",
+        "deposit money",
+        "how to deposit cash",
+        "cash deposit machine"
+      ],
+      "responses": [
+        "You can deposit cash at your branch or at any of our 24x7 Cash Deposit Machines (CDMs)."
+      ]
+    },
+    {
+      "tag": "loan_calculator",
+      "patterns": [
+        "emi calculator",
+        "loan calculator",
+        "how much emi will i pay",
+        "calculate home loan emi"
+      ],
+      "responses": [
+        "You can use the EMI calculator on our website to estimate your monthly payments."
+      ]
+    },
+    {
+      "tag": "mortgage_info",
+      "patterns": [
+        "mortgage loan",
+        "loan against property",
+        "what is mortgage"
+      ],
+      "responses": [
+        "Mortgage loans (Loan Against Property) are available. Please contact your nearest branch for details."
+      ]
+    },
+    {
+      "tag": "bank_timings",
+      "patterns": [
+        "bank hours",
+        "branch timing",
+        "when does the bank open",
+        "is bank open today?"
+      ],
+      "responses": [
+        "Our branches are generally open Mon-Sat, 10:00 AM - 4:00 PM (closed on 2nd/4th Saturdays and Sundays). Timings may vary by branch."
+      ]
+    },
+    {
+      "tag": "csr",
+      "patterns": [
+        "csr activities",
+        "corporate social responsibility",
+        "bank charity"
+      ],
+      "responses": [
+        "Our CSR reports and activities are available on our website under the 'About Us' section."
+      ]
+    },
+    {
+      "tag": "profile_lock",
+      "patterns": [
+        "profile locked",
+        "account locked",
+        "net banking locked",
+        "my profile is locked"
+      ],
+      "responses": [
+        "You can reset your access using the 'Forgot Password' link and OTP, or you may need to visit a branch."
+      ]
+    },
+    {
+      "tag": "nominee_update",
+      "patterns": [
+        "nominee add",
+        "change nominee",
+        "update nominee in my account",
+        "how to add nominee"
+      ],
+      "responses": [
+        "You can add or change your account nominee by filling a form at your branch or through net banking."
+      ]
+    },
+    {
+      "tag": "international_card",
+      "patterns": [
+        "international card",
+        "use card abroad",
+        "enable international transactions",
+        "my card not working abroad"
+      ],
+      "responses": [
+        "Please enable international usage for your card in the 'Card Settings' section of the mobile app before you travel."
+      ]
+    },
+    {
+      "tag": "travel_notice",
+      "patterns": [
+        "travel abroad notice",
+        "i am travelling internationally",
+        "inform bank about travel"
+      ],
+      "responses": [
+        "Thank you for informing us. You can set a travel notice in the mobile app to ensure seamless card usage abroad."
+      ]
+    },
+    {
+      "tag": "mobile_number_change",
+      "patterns": [
+        "change mobile number",
+        "update my phone number",
+        "my registered number is lost"
+      ],
+      "responses": [
+        "For security, you must visit your nearest branch with your ID proof to change your registered mobile number."
+      ]
+    },
+    {
+      "tag": "email_update",
+      "patterns": [
+        "update email",
+        "change my email id",
+        "wrong email address"
+      ],
+      "responses": [
+        "You can update your email ID instantly via the 'Profile' section of your online banking settings."
+      ]
+    },
+    {
+      "tag": "atm_pin_block",
+      "patterns": [
+        "pin blocked",
+        "wrong pin 3 times",
+        "my atm pin is blocked"
+      ],
+      "responses": [
+        "If your PIN is blocked from 3 wrong attempts, it will auto-unblock after 24 hours. You can also reset it at an ATM."
+      ]
+    },
+    {
+      "tag": "bank_charges",
+      "patterns": [
+        "bank fees",
+        "charges",
+        "why was i charged",
+        "account maintenance charges"
+      ],
+      "responses": [
+        "Our complete schedule of charges (SOC) is available on our website. You can also check your statement for details."
+      ]
+    },
+    {
+      "tag": "standing_instruction",
+      "patterns": [
+        "standing instruction",
+        "auto debit setup",
+        "automatic payment",
+        "e-nach"
+      ],
+      "responses": [
+        "You can set up a 'Standing Instruction' or 'Auto-Debit' (e-NACH) using the 'Bill Pay' section of mobile banking."
+      ]
+    },
+    {
+      "tag": "debit_card_status",
+      "patterns": [
+        "track debit card",
+        "card delivery status",
+        "where is my new card",
+        "when will i get my atm card"
+      ],
+      "responses": [
+        "You can track your card dispatch and delivery status from our card dispatch portal. The link is sent via SMS."
+      ]
+    },
+    {
+      "tag": "mobile_otp_issue",
+      "patterns": [
+        "no otp",
+        "otp problem",
+        "i am not receiving otp",
+        "otp not coming"
+      ],
+      "responses": [
+        "Please check your mobile network and signal. Also, ensure your number is not on DND (Do Not Disturb). Try restarting your phone."
+      ]
+    },
+    {
+      "tag": "branch_manager",
+      "patterns": [
+        "talk to branch manager",
+        "i need to meet the manager",
+        "who is the branch manager"
+      ],
+      "responses": [
+        "You can visit the branch during working hours and request an appointment with the Branch Manager."
+      ]
+    },
+    {
+      "tag": "investment",
+      "patterns": [
+        "investment options",
+        "mutual funds",
+        "sip",
+        "stock market",
+        "how to invest money"
+      ],
+      "responses": [
+        "We offer various investment options like Mutual Funds (SIPs), stocks, and bonds. Please speak to our relationship manager."
+      ]
+    },
+    {
+      "tag": "ppf",
+      "patterns": [
+        "ppf account",
+        "public provident fund",
+        "open ppf account"
+      ],
+      "responses": [
+        "PPF accounts are available. You can open one via your branch or net banking."
+      ]
+    },
+    {
+      "tag": "nri_account",
+      "patterns": [
+        "nri account",
+        "nre account",
+        "nro account",
+        "account for nri"
+      ],
+      "responses": [
+        "We offer specialized NRE/NRO accounts for NRIs. Please check our website's NRI section for details."
+      ]
+    },
+    {
+      "tag": "virtual_card",
+      "patterns": [
+        "virtual debit card",
+        "card on phone",
+        "digital card",
+        "virtual credit card"
+      ],
+      "responses": [
+        "A secure virtual debit card is available in your mobile app, which you can use for online payments."
+      ]
+    },
+    {
+      "tag": "customer_id",
+      "patterns": [
+        "find customer id",
+        "what is my customer id",
+        "i forgot my cust id"
+      ],
+      "responses": [
+        "Your Customer ID is available on your passbook, cheque book, and in the 'Profile' section of the mobile app."
+      ]
+    },
+    {
+      "tag": "qr_code",
+      "patterns": [
+        "upi qr code",
+        "business qr",
+        "my qr code",
+        "merchant qr"
+      ],
+      "responses": [
+        "You can download your personal UPI QR code from any UPI app. For a merchant QR, please use our merchant banking app."
+      ]
+    },
+    {
+      "tag": "reward_points",
+      "patterns": [
+        "reward points",
+        "redeem points",
+        "check my credit card points",
+        "how to redeem reward points"
+      ],
+      "responses": [
+        "You can check and redeem your reward points by logging into your card portal or through net banking."
+      ]
+    },
+    {
+      "tag": "loan_topup",
+      "patterns": [
+        "loan top up",
+        "increase loan",
+        "i need more money on my loan",
+        "top up personal loan"
+      ],
+      "responses": [
+        "A loan top-up is available for eligible existing loan customers. Please check your pre-approved offers in the app."
+      ]
+    },
+    {
+      "tag": "emi_date_change",
+      "patterns": [
+        "change emi date",
+        "i want to change my emi date",
+        "modify emi payment date"
+      ],
+      "responses": [
+        "A change in EMI date is possible for some loans, subject to approval. Please submit a request at your branch."
+      ]
+    },
+    {
+      "tag": "loan_preclosure",
+      "patterns": [
+        "close loan early",
+        "loan prepayment",
+        "foreclose my loan",
+        "how to pre-close a loan"
+      ],
+      "responses": [
+        "Yes, you can pre-close your loan. Prepayment charges may apply. Please submit a pre-closure form at your branch."
+      ]
+    },
+    {
+      "tag": "gst_query",
+      "patterns": [
+        "gst number",
+        "gst",
+        "bank gst number",
+        "gst on bank charges"
+      ],
+      "responses": [
+        "GST details for bank charges are available in your statement. Our bank's GST number is available in the 'About Us' section."
+      ]
+    },
+    {
+      "tag": "digital_wallet",
+      "patterns": [
+        "wallet services",
+        "bank wallet",
+        "e-wallet",
+        "does the bank have a wallet?"
+      ],
+      "responses": [
+        "Yes, you can use our secure bank e-wallet for quick payments and offers. It's integrated into our mobile app."
+      ]
+    },
+    {
+      "tag": "senior_account",
+      "patterns": [
+        "senior citizen account",
+        "account for seniors",
+        "pensioner account"
+      ],
+      "responses": [
+        "We offer special savings accounts for senior citizens with benefits like higher FD rates and priority service."
+      ]
+    },
+    {
+      "tag": "student_account",
+      "patterns": [
+        "student account",
+        "youth account",
+        "account for my child",
+        "zero balance student account"
+      ],
+      "responses": [
+        "Yes, we have student-friendly bank accounts with zero balance requirements and other benefits."
+      ]
+    },
+    {
+      "tag": "contact_form",
+      "patterns": [
+        "contact form",
+        "contact support",
+        "email support",
+        "write to the bank"
+      ],
+      "responses": [
+        "Please visit our 'Contact Us' page to submit a support form, and our team will get back to you."
+      ]
+    },
+    {
+      "tag": "human_agent",
+      "patterns": [
+        "talk to human",
+        "customer care executive",
+        "i want to talk to a person",
+        "connect me to an agent",
+        "live agent"
+      ],
+      "responses": [
+        "Connecting you to a human representative... Please hold.",
+        "Understood. Transferring you to a live agent now."
+      ]
+    }
+  ]
+}
+
