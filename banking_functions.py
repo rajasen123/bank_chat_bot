@@ -33,4 +33,4 @@ def transfer_funds(message):
     elif recipient:
         return f"You mentioned {recipient}, but how much should I send?"
     else:
-        return "To transfer funds, please specify an amount and a recipient."
+        return "To transfer funds, please specify an amount and a recipient..."
